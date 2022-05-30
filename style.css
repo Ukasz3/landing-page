@@ -1,6 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
+    margin: 0;
 }
 
 .header {
@@ -49,21 +50,43 @@ a {
     font-style: italic;
 }
 
+.info4 {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0px;
+}
+
 .quote {
     font-weight: 800;
     text-align: right;
 }
 
 .body {
-    flex: 1;
+    flex: auto;
 }
 
 button {
     background-color: #3882F6;
     color: #F9FAF8;
+    padding: 0px 35px;
+    border-radius: 15px;
+    border: none;
 }
 
 .call-to-action {
     background-color: #3882F6;
     color: #F9FAF8;
+    width: 950px;
+    padding: 40px 100px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+h3 {
+    margin: 0px;
+}
+
+.call-to-action button {
+    border: 2px solid;
 }
