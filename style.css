@@ -48,6 +48,13 @@ a {
     font-size: 36px;
     color: #1F2937;
     font-style: italic;
+    display: flex;
+    justify-content: center;
+}
+
+.info3-item {
+    width: 750px;
+    padding: 50px 0px;
 }
 
 .info4 {
